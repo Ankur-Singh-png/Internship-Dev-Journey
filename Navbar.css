@@ -1,0 +1,50 @@
+.main-nav {
+    height: 4vw;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+.left-side {
+    display: flex;
+    flex-direction: row;
+    width: 15vw;
+    gap: 13px;
+    align-items: center;
+}
+.right-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-right: 10px;
+}
+.vertical-line {
+    width: 1px;
+    justify-content: center;
+    background-color: white;
+    height: 40%;
+}
+.logos {
+    width: 9vw;
+    height: 3vw;
+}
+.Home{
+    padding: 0.8vh;
+    background: white;
+    border-radius: 50%;
+}
+.Home img,.question img {
+    width: 1vw;
+    height: 1vw;
+    display: flex;
+    align-items: center;
+}
+.hide-faq {
+    display: none;
+}

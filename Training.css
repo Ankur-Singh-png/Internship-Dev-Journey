@@ -1,0 +1,111 @@
+.quick-container{
+    margin: 0px;
+    padding:0px;
+    height:45vh;
+}
+.heading{
+    text-transform: uppercase;
+    color: #000000;
+    font: normal normal bold 1.7vw/4.5vw Segoe UI;
+    text-align: center;
+    opacity: 1;
+}
+.crt{
+    display: flex;
+    margin-left:1vw;
+    align-items: center;
+}
+.list-container{
+    width:100%;
+}
+.no-data{
+    font-weight:bold;
+    padding-top:3vh;
+    color: #1b1a1a;
+    font-size:2.5vh;
+    text-align: center;
+    vertical-align: middle; 
+}
+.controllr{  
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.controllr img{
+    padding: 0.6vh;
+    height: 5vh;
+    cursor: pointer;
+    padding-left: 2%;
+}
+.list{
+    display: flex;
+    font: normal normal normal 0.9vw / 2vh Segoe UI;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+    color: #7d7d7d;
+    margin: 0 0 0 1vw;
+    padding: 0;
+    width: 98.5%;
+}
+.list li{
+    cursor: pointer;
+    border: .1vw solid #005eb8;
+    padding: .5vw;
+    width: inherit;
+}
+.active{
+    background-color: #005EB8;
+    color:white;
+}
+.video-list{
+    display: flex;
+    list-style: none;
+    overflow-x: scroll;
+    scrollbar-width: thin; 
+    scrollbar-color: transparent transparent;
+    margin: 0px;
+    padding-left:1.2vw;
+    overflow-y: hidden;
+    gap: 5vh;
+    padding: 0.5vw 0px;
+    height: max-content;
+    margin-left: 2vw;
+}
+.video-list li{
+    height: 22vh;
+    width: 18vw;
+    position: relative;
+}
+.video-list .play-icons{
+    height: 3.5vh;
+    width: 5.5vw;
+    position: relative;
+    bottom: 8vh;
+    z-index: 1000;
+}
+.video-list .para{
+    height: 3vh;
+    overflow: hidden;
+    position: relative;
+    bottom: 11.5vh;
+    margin: 0px;
+    padding: 0px;
+    left: 4vw;
+    width: 11.5vw;
+    letter-spacing: 0px;
+    font: normal normal bold 1.1vw/1vw Segoe UI;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    text-align: left;
+    max-width: 12vw;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    word-wrap:break-word;
+} 
+.video-list::-webkit-scrollbar{
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

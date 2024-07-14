@@ -1,0 +1,44 @@
+.vid-img {
+    width: 18vw;
+    display: inline;
+    height: 22vh;
+    position: absolute;
+    border-radius: 0.7vw;
+    border: 0.1vw solid;
+    cursor: pointer;
+    background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.video-container{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+    padding: 1vh 1vw;
+    position: absolute;
+    border-radius: 0.7vw;
+    bottom: 0vw;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.main-container{
+    display: flex;
+    gap: 6px;
+    padding: 5px;
+    position: relative;
+}
+.video-container p{
+    width: 100%;
+    overflow: hidden;
+}
+.video-container img{
+    width: 2vw;
+    height: 2vw;
+}
+.video-container p{
+    z-index: 50;
+    color: white;
+    font: normal normal 650 1vw/3vh Segoe UI;
+}
+
